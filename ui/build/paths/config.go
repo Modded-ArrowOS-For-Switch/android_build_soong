@@ -113,9 +113,10 @@ var Configuration = map[string]PathConfig{
 	"clang++":    Forbidden,
 	"gcc":        Forbidden,
 	"g++":        Forbidden,
-	"ld":         Forbidden,
+	"ld":         Allowed,// HACK
 	"ld.bfd":     Forbidden,
 	"ld.gold":    Forbidden,
+	"perl":		  Allowed,// HACK
 	"pkg-config": Forbidden,
 
 	// These are toybox tools that only work on Linux.
